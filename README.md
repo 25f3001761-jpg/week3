@@ -131,3 +131,11 @@ if(num== rev):
    print('palindrome')
 else:
     print('nOT a palindrome')
+```
+
+```python
+for i in range(10):
+   print(i,"Hello world")
+```
+it will print hello world 10 times 
+if (1,10) then it will print from 1 to 9 and if only 10  then 0 to 9 
