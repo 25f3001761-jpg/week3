@@ -115,3 +115,19 @@ else:
     print(rev - 2* rev)
 print(rev)
 ```
+Palindrome : exactly equal after reversing 
+```python
+num = int(input('Enter a number: '))
+absNum = abs(num)
+rev = absNum % 10
+absNum = absNum // 10
+while ( absNum > 0):
+    r = absNum % 10
+    absNum = absNum // 10
+    rev = rev*10 + r
+if(num < 0):
+    rev = rev - 2 *rev 
+if(num== rev):
+   print('palindrome')
+else:
+    print('nOT a palindrome')
