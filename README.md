@@ -139,3 +139,45 @@ for i in range(10):
 ```
 it will print hello world 10 times 
 if (1,10) then it will print from 1 to 9 and if only 10  then 0 to 9 
+
+```python
+for i in range(1, 10):
+   print(i,"Hello world")
+   print("*********")
+```
+```python
+for i in range (10):
+    if (i % 2 == 0):
+        print(i, "Radhe Radhe")
+    else:
+        print(i, "Jai Shri Ram")
+```
+```python
+print("enter a number")
+n= int(input())
+
+for i in range (1, n+1):
+    if (n % 2 == 0):
+        print(i, "Radhe Radhe")
+    else:
+        print(i, "Jai Shri Ram")
+```
+```python
+print("Enter a number:")
+n = int(input())
+
+ans = 0 
+for i in range(n//2, n):
+    ans = ans + i
+
+print ("The sum of all numbers from", n//2, "to", n-1, "is:", ans)
+```
+
+Table 
+```python
+print("enter a number:")
+n = int(input())
+
+for i in range(10):
+    print(n, "x", i + 1, "=", n * (i + 1))
+```
