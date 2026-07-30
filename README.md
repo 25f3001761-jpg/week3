@@ -181,3 +181,64 @@ n = int(input())
 for i in range(10):
     print(n, "x", i + 1, "=", n * (i + 1))
 ```
+```python
+for x in range(1,11):
+    if(x % 2 != 0):
+        print(x)
+```
+```python
+for x in range(1,11,3):
+    print(x)
+```
+from 1 it will skip  3 and then print 4 and then 7 and then 10
+( 1 , 11 , 3) 1 is optional parameter second is mandatory parameter and 3rd is step 
+for arcending andd   descending order 
+
+```python
+country = 'India'
+for letter in country:
+    print(letter)
+```
+range is not used
+
+format printing
+```python
+d = 10
+m = 5
+y = 2021
+print(f"The date is: {d}/{m}/{y}")
+```
+```python
+d = 10
+m = 5
+y = 2021
+print("The date is:" , d , m, y, sep ='/')
+# or we can write
+print("The date is:", end = ' ')
+print(d, m, y, sep = '/')
+```
+sep is seperate 
+end= ' ' is for writing in single line
+```python
+num = int(input())
+for i in range(1,11):
+    print(f'{num} x {i} = {num*i}')
+```
+f is format printing 
+under {] everything will be considered as variable and everything else be considered as string
+```python
+num = int(input())
+for i in range(1,11):
+    print('{0} x {1} = {2}'.format(num, i, num*i))
+```
+```python
+num = int(input())
+for i in range(1,11):
+    print('%d x %d = %d' % (num, i, num*i))
+```
+```python
+num = int(input())
+for i in range(1,11):
+    print('%d x %d = %d' % (num, i, num*i))
+```
+here f is float value
