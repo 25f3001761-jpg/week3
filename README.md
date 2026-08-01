@@ -234,7 +234,7 @@ for i in range(1,11):
 ```python
 num = int(input())
 for i in range(1,11):
-    print('%d x %d = %d' % (num, i, num*i))
+    print(f'%d x %d = %d' % (num, i, num*i))
 ```
 here f is float value
 ```python
@@ -250,4 +250,17 @@ for x in range(11):
 <img width="477" height="306" alt="image" src="https://github.com/user-attachments/assets/2001010c-a3bf-4d06-a136-0be4e9efc93d" />
 
 
+tuple is unchangeable
+and list is changeable 
+we can appened(Add)
+If we want to fix the list then we use tupple
 
+```python
+import string 
+print(string.ascii_letters)
+```
+we can't change the specific chahracter in python like we change in digits 
+s[3] = 's' it can't be changed 
+but s[3] = '3' can be changed 
+l.appened can add one element but l.insert can add more than one element 
+l.remove(2) removes that element but l.pop() removes the number positioned at that place 
