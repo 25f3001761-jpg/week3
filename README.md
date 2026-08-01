@@ -236,9 +236,18 @@ num = int(input())
 for i in range(1,11):
     print('%d x %d = %d' % (num, i, num*i))
 ```
-```python
-num = int(input())
-for i in range(1,11):
-    print('%d x %d = %d' % (num, i, num*i))
-```
 here f is float value
+```python
+for x in range(11):
+    if(x % 3 == 0):
+        print(x)
+    else:
+        pass
+```
+
+<img width="787" height="206" alt="image" src="https://github.com/user-attachments/assets/50e9d5f0-4026-40aa-8542-32ce264ea2b7" />
+<img width="835" height="222" alt="image" src="https://github.com/user-attachments/assets/4901c50b-077c-497a-a9c3-304ada1e9fa0" />
+<img width="477" height="306" alt="image" src="https://github.com/user-attachments/assets/2001010c-a3bf-4d06-a136-0be4e9efc93d" />
+
+
+
