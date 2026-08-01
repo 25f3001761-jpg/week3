@@ -264,3 +264,19 @@ s[3] = 's' it can't be changed
 but s[3] = '3' can be changed 
 l.appened can add one element but l.insert can add more than one element 
 l.remove(2) removes that element but l.pop() removes the number positioned at that place 
+```python
+l1 = [2,3,4,5,6,11,1,19,10]
+l1.sort(reverse=True)
+print(l1)
+```
+in st(set) only unique value gets printed 
+st(1,1,1,1,12,2,23,3,34,4,)
+
+```python
+A = {1,2,3}
+B = {3,4,5}
+print(A.issuperset(B))
+```
+for union it's A.union(b)
+OR A
+and for intersection a.difference(B) or A-B
