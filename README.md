@@ -280,3 +280,53 @@ print(A.issuperset(B))
 for union it's A.union(b)
 OR A
 and for intersection a.difference(B) or A-B
+```python
+l = [10]
+print(l, type(l))
+
+t=(10)
+print(t, type(t))
+```
+[] is for list 
+(9,) is tuple and () is just integer 
+
+```python
+a=100
+b=2
+small = a if a< b else b
+print(small)
+```
+```python
+a = 5
+while a> 0: print(A); a -= 1
+```
+```python
+fruits = ["apple", "banana", "cherry", "date", "elderberry"]
+
+newlist = []
+for fruit in fruits:
+    if "a" in fruit:
+        newlist.append(fruit.capitalize())
+    else:
+        newlist.append(fruit.capitalize())
+print(newlist)
+```
+```python
+fruits = ["apple", "banana", "cherry", "date", "elderberry"]
+
+newlist = []
+for fruit in fruits:
+    if "a" in fruit:
+        newlist.append(fruit.capitalize())
+    else:
+        "r" in fruit
+        newlist.append(fruit.upper())
+else:
+    print("No fruits found containing 'a' or 'r'")
+print(newlist)
+```
+or we can write
+```python
+fruits = [....]
+newlisr = [fruits.capitalize() for fruit in fruits if 'r' in fruit]
+print(newlist)
