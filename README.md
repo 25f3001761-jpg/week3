@@ -244,6 +244,8 @@ for x in range(11):
     else:
         pass
 ```
+range = (start , stop, step)
+
 
 <img width="787" height="206" alt="image" src="https://github.com/user-attachments/assets/50e9d5f0-4026-40aa-8542-32ce264ea2b7" />
 <img width="835" height="222" alt="image" src="https://github.com/user-attachments/assets/4901c50b-077c-497a-a9c3-304ada1e9fa0" />
