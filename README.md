@@ -1,5 +1,7 @@
 # week3
 
+
+for nested tupple add comma to it
 ```python
 print("When did India get its independence?")
 year =int(input())
@@ -346,3 +348,4 @@ print(....is arguments) in return
 <img width="1867" height="957" alt="image" src="https://github.com/user-attachments/assets/c736fd5e-6d4e-40dc-affa-92442935fce5" />
 <img width="622" height="787" alt="image" src="https://github.com/user-attachments/assets/24be15da-95d9-429a-93a9-f5778e85c07e" />
 <img width="683" height="557" alt="image" src="https://github.com/user-attachments/assets/180371af-d76c-492b-b8eb-60ba663da79a" />
+ 
