@@ -335,14 +335,8 @@ fruits = [....]
 newlisr = [fruits.capitalize() for fruit in fruits if 'r' in fruit]
 print(newlist)
 ```
-For comparison:
+<img width="1010" height="327" alt="image" src="https://github.com/user-attachments/assets/a8c8736c-2a62-463f-926c-162963d06d4a" />
 
-L[-1:] → just the last element as a list: [5]
-L[-1] → just the last element itself (not a list): 5
-L[1:] → everything except the first element: [1, 4, 1, 5]
-L[:-2] → everything except the last two elements: [3, 1, 4]
-
-print(....is arguments) in return
 
 <img width="837" height="958" alt="image" src="https://github.com/user-attachments/assets/bcc57dcd-7723-4d88-b945-c31217c78e2b" />
 <img width="1867" height="957" alt="image" src="https://github.com/user-attachments/assets/c736fd5e-6d4e-40dc-affa-92442935fce5" />
